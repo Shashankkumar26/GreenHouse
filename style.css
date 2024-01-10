@@ -72,3 +72,65 @@ body{
     object-fit: cover;
   }
 }
+
+#Onepatient {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+#Onepatient h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+/* gallery */
+#Gallery {
+  margin-top: 40px !important;
+  margin-bottom: 50px;
+}
+
+.item-gal {
+  width: auto;
+  height: 300px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.item-gal img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+/* before/after */
+#Before-after {
+  margin-top: 6vh !important;
+}
+#Before-after h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow {
+  left: -40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  background: #198754 !important;
+}
+.next-arrow {
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  background: #198754 !important;
+}
